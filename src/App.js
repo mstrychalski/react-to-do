@@ -9,8 +9,8 @@ const App = () => (
   <MuiThemeProvider>
     <div className="App">
       <Menu />
-      <AppBar title="React to-do list"/>
       <div className="appWrapper">
+        <AppBar title="React to-do list"/>
         <VisibleTodoList />
       </div>
     </div>
