@@ -5,12 +5,14 @@ import AppBar from 'material-ui/AppBar'
 import Menu from './components/menu/Menu'
 import './App.css';
 
+
 const App = () => (
   <MuiThemeProvider>
     <div className="App">
       <Menu />
       <div className="appWrapper">
-        <AppBar title="React to-do list"/>
+        <AppBar title="React to-do list"
+                iconStyleLeft={{display:'none'}}/>
         <VisibleTodoList />
       </div>
     </div>
